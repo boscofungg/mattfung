@@ -1,0 +1,28 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1, h2, h3 {
+    color: #343a40;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+section {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
